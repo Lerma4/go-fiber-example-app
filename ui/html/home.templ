@@ -1,0 +1,24 @@
+package components
+
+templ Home(name string) {
+    @template() {
+        <div class="container mx-auto mt-10">
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">{name}</h2>
+                    <p>Ho installato daisyui</p>
+                    <div class="card-actions justify-end">
+                    <button class="btn btn-primary">MERDE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+templ NotFound() {
+    @template() {
+	    <div><button class="btn">404</button></div>
+    }
+}

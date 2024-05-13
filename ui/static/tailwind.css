@@ -1,0 +1,4 @@
+/* serve solo per tailwind, non  spostare */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
